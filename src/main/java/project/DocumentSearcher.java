@@ -1,10 +1,10 @@
-package pa_01;
+package ir_pa.project;
 
 import java.io.IOException;
 import java.nio.file.Path;
 
-import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.index.DirectoryReader;
+import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;

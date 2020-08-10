@@ -1,4 +1,4 @@
-package pa_01;
+package ir_pa.project;
 
 import java.io.File;
 import java.io.FileReader;

@@ -1,9 +1,9 @@
-package pa_01;
+package ir_pa.project;
 
-import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.LowerCaseFilter;
+import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.en.PorterStemFilter;
+// import org.apache.lucene.analysis.en.PorterStemFilter;
 import org.apache.lucene.analysis.standard.StandardTokenizer;
 
 public final class TokenAnalyzer extends Analyzer {
@@ -13,7 +13,7 @@ public final class TokenAnalyzer extends Analyzer {
 		final StandardTokenizer src = new StandardTokenizer();
 		src.setMaxTokenLength(255);
 		TokenStream tok = new LowerCaseFilter(src);
-		tok = new PorterStemFilter(tok);
+		// tok = new PorterStemFilter(tok);
 		return new TokenStreamComponents(src, tok);
 	}
 }
