@@ -22,4 +22,7 @@ Run jar with path to a directory or a file to be indexed as an argument.
 ```shell
 java -jar ./template/informationRetrievalSystem.jar <path_to_directory_or_file>
 ```
+
+## Sample Results
+![Sample Results](./docs/images/irs1.png)
  
